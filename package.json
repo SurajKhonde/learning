@@ -4,7 +4,7 @@
   "description": "this is my first website ",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://followynne.github.io/github-pages-hosting-with-parcel/",
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://surajkhonde.github.io/learning/",
     "deploy": "gh-pages -d dist",
     "test": "jest"
   },
