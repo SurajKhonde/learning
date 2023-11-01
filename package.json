@@ -1,0 +1,32 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "this is my first website ",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://followynne.github.io/github-pages-hosting-with-parcel/",
+    "deploy": "gh-pages -d dist",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Suraj and shekhar Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/material": "^5.14.13",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.1",
+    "parcel": "^2.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.5"
+  }
+}
