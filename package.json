@@ -1,10 +1,11 @@
 {
+  "homepage": "https://SurajKhonde.github.io/[YOUR REPO NAME]",
   "name": "my-website",
   "version": "1.0.0",
   "description": "this is my first website ",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://surajkhonde.github.io/learning/",
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/learning/",
     "deploy": "gh-pages -d dist",
     "test": "jest"
   },
