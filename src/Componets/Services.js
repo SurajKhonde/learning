@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 
-export const Services = () => {
+const Services = () => {
   return (
-    <div>Services</div>
+    <div>Hello</div>
   )
 }
+export default Services;
