@@ -2,14 +2,15 @@ import { useState } from "react";
 import { navData } from "../external/NavData";
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import styles from "./sidenav.module.css"
+import * as styles from "./sidenav.module.css";
 import { NavLink } from "react-router-dom";
 
 const Sidenav = () => {
     const [open, setopen] = useState(true)
     const toggleOpen = () => {
     setopen(!open)
-}
+    }
+    console.log(open)
      return (
       <div className={open?styles.sidenav:styles.sidenavClosed}>
     <div className={styles.menuBtn} onClick={toggleOpen} >
