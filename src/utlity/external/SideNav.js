@@ -2,7 +2,7 @@ import { useState } from "react";
 import { navData } from "../external/NavData";
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import * as styles from "./sidenav.module.css"
+import styles from "./sidenav.module.css"
 import { NavLink } from "react-router-dom";
 
 const Sidenav = () => {
